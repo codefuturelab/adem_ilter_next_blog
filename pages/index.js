@@ -1,3 +1,5 @@
+import Profile from "../components/profile";
+
 function HomePage() {
     return <>
         <div className="site-container">
@@ -21,6 +23,8 @@ function HomePage() {
                     qui tempore voluptatibus. Aliquam assumenda eveniet harum illum itaque iusto labore laboriosam
                     maiores,
                     nemo ?</p>
+                <h2>Who am I ?</h2>
+                <Profile />
             </div>
         </div>
         <div className="site-4xl-container mt-20 ">
