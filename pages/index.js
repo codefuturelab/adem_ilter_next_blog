@@ -23,8 +23,8 @@ function HomePage() {
                     nemo ?</p>
             </div>
         </div>
-        <div className="site-4xl-container mt-20 bg-blue-300 ">
-            <img src="../public/gc.png" alt=""/>
+        <div className="site-4xl-container mt-20 ">
+            <img className="rounded-b-full shadow-2xl " src="is.jpg" alt=""/>
         </div>
     </>
 

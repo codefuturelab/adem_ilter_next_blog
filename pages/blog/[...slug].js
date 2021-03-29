@@ -1,6 +1,8 @@
 import {getMdxNode, getMdxPaths} from 'next-mdx/server'
 import {useHydrate} from "next-mdx/client";
 import {mdxComponents} from "../../components/mdx-components";
+import SubscribeButton from "../../components/subscribe-button";
+import Footer from "../../components/footer";
 
 export default function PostPage({post}) {
     const content = useHydrate(post, {

@@ -1,6 +1,7 @@
 import 'tailwindcss/tailwind.css'
 import Header from "../components/header";
 import '../styles/globals.css'
+import Footer from "../components/footer";
 
 function MyApp({Component, pageProps}) {
     return (
@@ -9,6 +10,7 @@ function MyApp({Component, pageProps}) {
             <main className="mt-6 mb-20">
                 <Component {...pageProps} />
             </main>
+            <Footer/>
         </div>
     )
 }

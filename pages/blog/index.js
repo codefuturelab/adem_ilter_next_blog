@@ -1,5 +1,6 @@
 import {getAllNodes} from "next-mdx/server"
 import Link from "next/link";
+import SubscribeButton from "../../components/subscribe-button";
 
 function BlogPage({posts}) {
     return (
@@ -21,6 +22,7 @@ function BlogPage({posts}) {
                     )
                 })
                 }</div>
+
         </div>
     )
 }
