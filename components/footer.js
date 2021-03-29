@@ -2,9 +2,9 @@ import Link from 'next/link'
 
 export default function Footer() {
     return (
-        <footer className="site-container flex justify-center px-4 text-gray-100 bg-gray-800 pb-4">
+        <footer className="site-container flex justify-center px-4 text-gray-100 bg-gray-100 pb-4 rounded shadow-2xl">
             <div className="container py-6">
-                <h1 className="text-center text-lg font-bold lg:text-2xl">
+                <h1 className="text-center text-lg font-bold lg:text-2xl text-gray-800 ">
                     Welcome to our blog,Think Write and Grow Up !!! <br/> powered by Next.js Tailwind.css
                 </h1>
 
