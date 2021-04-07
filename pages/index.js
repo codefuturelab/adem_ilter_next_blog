@@ -3,7 +3,7 @@ import Profile from "../components/profile";
 function HomePage() {
     return <>
         <div className="site-container">
-            <div className="space-y-4"><h1 className="text-2xl font-bold"> Bir Bolog bu bir blog eee</h1>
+            <div className="space-y-4"><h1 className="text-2xl font-bold "> Bir Bolog bu bir blog eee</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci dolorum eius magni quia totam!
                     Accusantium
                     debitis dolor et laboriosam obcaecati quae repudiandae sit velit, voluptas voluptatibus. Ad
@@ -27,7 +27,7 @@ function HomePage() {
                 <Profile />
             </div>
         </div>
-        <div className="site-4xl-container mt-20 ">
+        <div className="site-container  ">
             <img className="rounded-b-full shadow-2xl " src="is.jpg" alt=""/>
         </div>
     </>

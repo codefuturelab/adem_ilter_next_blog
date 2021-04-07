@@ -9,4 +9,7 @@
     .site-4xl-container{
         @apply  max-w-4xl mx-auto px-4
     }
+    .site-text-main{
+        @apply text-gray-800 dark:text-gray-100
+    }
 }

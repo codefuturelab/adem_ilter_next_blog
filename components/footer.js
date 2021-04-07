@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function Footer() {
     return (
-        <footer className="site-container flex justify-center px-4 text-gray-100 bg-gray-100 pb-4 rounded shadow-2xl">
+        <footer className="site-container flex justify-center px-4 text-gray-100 bg-gray-100 pb-4 rounded shadow-2xl  site-text-main dark:bg-gray-600">
             <div className="container py-6">
                 <h1 className="text-center text-lg font-bold lg:text-2xl text-gray-800 ">
                     Welcome to our blog,Think Write and Grow Up !!! <br/> powered by Next.js Tailwind.css
@@ -12,7 +12,7 @@ export default function Footer() {
                     <div className="bg-white rounded-lg">
                         <div className="flex flex-wrap justify-between md:flex-row">
                             <input type="email"
-                                   className="m-1 p-2 appearance-none text-gray-700 text-sm focus:outline-none"
+                                   className="m-1 p-2 appearance-none text-grays-700 text-sm focus:outline-none"
                                    placeholder="Enter your email">
                             </input>
                                 <button

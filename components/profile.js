@@ -1,5 +1,5 @@
 export default  function Profile() {
-    return <figure className="md:flex bg-gray-200 rounded-xl p-8 md:p-0 shadow-2xl">
+    return <figure className=" md:flex bg-gray-200 rounded-xl p-8 md:p-0 shadow-2xl  site-text-main dark:bg-gray-800 ">
         <img className="w-32 h-32 md:w-48 md:h-auto md:rounded-full rounded-full mx-auto shadow-2xl" src="adem_cilgin.jpg" alt=""
              width="384" height="512"/>
             <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
