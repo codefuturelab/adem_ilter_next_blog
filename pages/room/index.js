@@ -1,12 +1,12 @@
 export default function RoomPage() {
   return <>
-    <div className="max-w-5xl mx-auto px-6">
-    
-    <iframe  className="min-w-full min-h-full  mx-auto h-3/4"
+    <div className="mx-auto  flex-nowrap bg-local md:bg-fixed">
+     <div className="h-full  flex-nowrap h-screen  w-full mb-24 px-10   ">
+    <iframe  className="mx-auto  border-gray-700 rounded-md  h-full w-full mx-auto "
         src="https://aclgn.whereby.com/4daf4455-9cd5-4916-bd6d-bd1fb86a7bc6?embed"
         allow="camera; microphone; fullscreen; speaker; display-capture"
       ></iframe>
-    
+    </div>
   
     </div>
   </>

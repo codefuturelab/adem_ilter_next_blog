@@ -4,8 +4,10 @@ import '../styles/globals.css'
 import Footer from "../components/footer";
 import DarkButton from "../components/dark-btn";
 import {ThemeProvider} from "next-themes";
-
+import {useRouter} from "next/router"
 function MyApp({Component, pageProps}) {
+    const router = useRouter();
+    const showFooter = router.pathname === '/room' ? false : true;
     return (
         <ThemeProvider attribute="class">
             <div className="antialiased site-text-main">
@@ -15,7 +17,7 @@ function MyApp({Component, pageProps}) {
                         <Component {...pageProps} />
                     </main>
                 </div>
-                <Footer/>
+                {showFooter && <Footer/>}
                 <DarkButton/>
             </div>
         </ThemeProvider>
